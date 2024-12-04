@@ -1,11 +1,7 @@
 package com.example.redis.redis_cache.service;
 
-import lombok.RequiredArgsConstructor;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.data.redis.core.ZSetOperations;
-import org.springframework.stereotype.Service;
-
 import java.util.Set;
 
 @Service
